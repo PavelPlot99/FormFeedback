@@ -1,0 +1,61 @@
+body{
+background: repeating-linear-gradient(90deg, #FFDEAD, #FFDEAD 20px, #708090 20px, #708090 40px);
+}
+.cover {
+    background:#CCC;
+    width:700px;
+    margin:auto;
+    padding-left:60px;
+}
+  h2.contact {
+    font-size: 66px;
+    color: #ff5400;
+    height: 105px;
+    font-family: sans-serif;
+}
+p.contact {
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 36px;
+    font-family: sans-serif, Arial;
+    color: #4b4b4b;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+input[type="text"] {
+    width: 400px;
+}
+input[type="email"] {
+    width: 400px;
+}
+input[type="date"] {
+    width: 400px;
+}
+textarea {
+    width: 600px;
+    height: 275px;
+}
+label {
+    color: #ff5400;
+}
+input, textarea {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 5px solid rgba(122, 192, 0, 0.15);
+    padding: 10px;
+    font-family: Keffeesatz, Arial;
+    color: #4b4b4b;
+    font-size: 24px;
+    -webkit-border-radius: 5px 20px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+input:focus, textarea:focus {
+    border: 5px solid #ff5400;
+    background-color: rgba(255, 255, 255, 1);
+}
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: #ff5400;
+}
+#messageMail, #messagePhone {
+  color: red;
+}

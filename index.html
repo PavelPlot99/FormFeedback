@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test Work Email</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div class="cover">
+      <script type="text/javascript" src="scripts/script.js"></script>
+      <h2 class="contact">Напишите нам</h2>
+      <form class="" action="scripts/send.php" method="post" onsubmit="return validMail() && validPhone()">
+          <p class="contact"> <label for="name">Имя</label> </p>
+          <input id="name" type="text" name="name" required placeholder="Ваше имя"><br>
+
+          <p class="contact"> <label for="email">Email</label> </p>
+          <input id="email" type="text" name="email" placeholder="test@mail.ru">
+          <a id='messageMail'></a><br>
+
+          <p class="contact"> <label for="phone">Номер телефона</label> </p>
+          <input id="phone" type="text" name="phone" required placeholder="8(XXX)-XX-XX-XX">
+          <a id='messagePhone'></a><br>
+
+          <p class="contact"> <label for="date">Дата</label> </p>
+          <input id="date" type="date" name="date" required><br>
+
+          <p class="contact"> <label for="question">Вопрос:</label> </p>
+          <textarea id="question" name="question" rows="8" cols="80" required></textarea><br>
+
+
+          <input id="submit" onclick="repl()"  type="submit" value="Отправить">
+      </form>
+    </div>
+  </body>
+</html>
